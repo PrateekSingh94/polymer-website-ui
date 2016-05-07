@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import"  href="bower_components/core-toolbar/core-toolbar.html">
+	<link rel="import" href="elements.html">
+	<script  src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	</head>
+
+<body fullbleed layout vertical>
+	<core-drawer-panel id="drawerPanel">
+	<core-header-panel drawer>
+
+	<core-toolbar id="hd">Menu</core-toolbar>
+	<core-menu >
+	<core-item label="Home"></core-item>
+	<core-item label="UG"></core-item>
+	<core-item label="PG"></core-item>
+	<core-item label="Faculy Time-Table"></core-item>
+</core-menu>
+</core-header-panel>
+	<core-header-panel main> <!-- mode="scroll" -->
+		<core-toolbar id="hd">
+			<core-icon-button core-drawer-toggle icon="menu">
+		</core-icon-button>
+		<div>Time-Table</div>
+		</core-toolbar>
+		<div class="content">
+
+		</div>
+	</core-header-panel>
+</core-drawe-panel>
+	
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+	font-family:sans-serif;
+}
+#hd{
+	background-color: red;
+}
+
+
+[main] {
+	background-color: #F9F9F9;
+}
+[drawer] {
+	background-color: #FFFFFF;
+}
+
+core-drawer-panel:not([narrow]) #navicon {
+	display: none;
+	}
